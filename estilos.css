@@ -1,0 +1,239 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    max-width: 1200px;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: green;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 980px;
+    padding: 20px 20px 20px 20px;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+header img {
+    width: 150px;
+}
+
+nav {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 5px 5px 5px 5px;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+main {
+    padding: 20px 20px 20px 20px;
+}
+
+section {
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+    color: grey;
+    font-size: 8pt;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 140%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h3, h4 {
+    font-size: 120%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border-spacing: 2px;
+    border-color: grey;
+    border-bottom: 1px solid #dddddd;
+    padding: 15px;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+input {
+    background-color: #e7e7e7;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+input:hover {
+    background-color: white;
+    color: black;
+}
+
+.list_table th {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.list_table img {
+    width: 50px;
+}
+
+.details_table span {
+    color: grey;
+    font-size: 10px;
+}
+
+.details_table th {
+    text-align: right;
+}
+
+.details_table tr {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.details_table input[type=file], .details_table input[type=number], .details_table input[type=text] {
+    /*margin: 2px 2px 2px 2px;*/
+    /*padding: 6px 6px;*/
+    width: 300px;
+}
+
+.details_table input[type=submit], .big_button a {
+    border-radius: 5px;
+    border: 2px solid green;
+    color: green;
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.details_table input[type=submit]:hover, .big_button a:hover, .small_button a:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+.search {
+    float: right;
+}
+
+.search input[type=text] {
+    font-size: 10px;
+    margin: 2px 2px 2px 2px;
+    padding: 6px 6px;
+}
+
+.search input[type=submit] {
+    background-color: #d3d3d3;
+    border: none;
+    color: black;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px 2px 2px;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.small_button a {
+    border-radius: 5px;
+    border: 2px solid green;
+    color: green;
+    display: inline-block;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 2px 2px 2px 2px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.user {
+    float: right;
+}
+
+.user input[type=password], .user input[type=text] {
+    font-size: 10px;
+    margin: 2px 2px 2px 2px;
+    padding: 6px 6px;
+}
+
+.user a, .user input[type=submit] {
+    background-color: #d3d3d3;
+    border: none;
+    color: black;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px 2px 2px;
+    padding: 6px 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.user p {
+    color: red;
+    font-weight: bold;
+    margin: 2px 2px 2px 2px;
+    padding: 10px 6px;
+}
+
+.user span {
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+#error_name, #error_type, #error_description, #error_price, #error_capacity,
+    #error_startDate, #error_duration, #error_image, #error_units {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 2px;
+}
